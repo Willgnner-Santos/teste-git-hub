@@ -1,0 +1,77 @@
+# ------------------------------
+# 1) Ambiente virtual (Python)
+# ------------------------------
+aula-banco/
+venv/
+.venv/
+env/
+ENV/
+
+# (opcional) Se você usa virtualenv em subpastas, pode ignorar também:
+# */venv/
+# */.venv/
+
+# ------------------------------
+# 2) Dados locais / datasets
+# ------------------------------
+Data/
+data/
+
+# (opcional) Ignorar só arquivos grandes específicos:
+# *.csv
+# *.xlsx
+# *.parquet
+# *.json
+
+# ------------------------------
+# 3) Cache do Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+
+# ------------------------------
+# 4) Jupyter / IPython
+# ------------------------------
+.ipynb_checkpoints/
+
+# (opcional) Saídas e configs locais do Jupyter:
+# .jupyter/
+
+# ------------------------------
+# 5) Logs e temporários
+# ------------------------------
+*.log
+*.tmp
+
+# ------------------------------
+# 6) VS Code (configs locais)
+# ------------------------------
+.vscode/
+
+# (opcional) Se você quiser versionar a pasta .vscode, mas ignorar só alguns arquivos:
+# .vscode/*
+# !.vscode/extensions.json
+# !.vscode/settings.json
+
+
+# ------------------------------
+# 7) Sistema Operacional
+# ------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# 8) Build / dist / testes
+# ------------------------------
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# (opcional) Node (se algum dia tiver frontend)
+# node_modules/
